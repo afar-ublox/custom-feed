@@ -1,6 +1,6 @@
 {
   "name": "@u-blox/custom-feed",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Feed is a RSS, Atom and JSON feed generator for Node.js, making content syndication simple and intuitive!",
   "homepage": "https://github.com/afar-ublox/custom-feed",
   "author": "Ahmad Faryab Kokab <ahmadkokab@gmail.com>",

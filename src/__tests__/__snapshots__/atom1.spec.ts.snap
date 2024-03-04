@@ -6,7 +6,11 @@ exports[`atom 1.0 should generate a valid feed 1`] = `
     <entry>
         <id>https://example.com/hello-world?link=sanitized&amp;value=2</id>
         <title type=\\"html\\"><![CDATA[Hello World]]></title>
-        <link href=\\"https://example.com/hello-world?link=sanitized&amp;value=2\\"/>
+        <url href=\\"https://example.com/hello-world?link=sanitized&amp;value=2\\"/>
+        <links>
+            <title>My Link</title>
+            <url>https://example.com/hello-world?link=sanitized&amp;value=2</url>
+        </links>
     </entry>
 </feed>"
 `;

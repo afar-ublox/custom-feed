@@ -5,12 +5,10 @@ exports[`json 1 should generate a valid feed 1`] = `
     \\"items\\": [
         {
             \\"title\\": \\"Hello World\\",
-            \\"id\\": \\"https://example.com/hello-world?id=this&that=true\\",
             \\"url\\": \\"https://example.com/hello-world?link=sanitized&value=2\\",
             \\"links\\": [
                 {
                     \\"title\\": \\"My Link\\",
-                    \\"id\\": \\"https://example.com/hello-world?link=sanitized&value=2\\",
                     \\"url\\": \\"https://example.com/hello-world?link=sanitized&value=2\\"
                 }
             ]

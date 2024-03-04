@@ -30,7 +30,8 @@ export default (ins: Feed) => {
     let entry: convert.ElementCompact = {
       id: sanitize(item.url),
       title: { _attributes: { type: "html" }, _cdata: item.title },
-      link: [{ _attributes: { href: sanitize(item.url) } }]
+      url: [{ _attributes: { href: sanitize(item.url) } }],
+      links: item.links
     };
 
     base.feed.entry.push(entry);

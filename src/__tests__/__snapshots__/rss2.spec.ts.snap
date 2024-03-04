@@ -5,11 +5,9 @@ exports[`rss 2.0 should generate a valid feed 1`] = `
     <channel>
         <item>
             <title>Hello World</title>
-            <id>https://example.com/hello-world?id=this&amp;that=true</id>
             <url>https://example.com/hello-world?link=sanitized&amp;value=2</url>
             <links>
                 <title>My Link</title>
-                <id>https://example.com/hello-world?link=sanitized&amp;value=2</id>
                 <url>https://example.com/hello-world?link=sanitized&amp;value=2</url>
             </links>
         </item>
@@ -22,11 +20,9 @@ exports[`rss 2.0 should generate a valid feed 2`] = `
     <channel>
         <item>
             <title>Hello World</title>
-            <id>https://example.com/hello-world?id=this&amp;that=true</id>
             <url>https://example.com/hello-world?link=sanitized&amp;value=2</url>
             <links>
                 <title>My Link</title>
-                <id>https://example.com/hello-world?link=sanitized&amp;value=2</id>
                 <url>https://example.com/hello-world?link=sanitized&amp;value=2</url>
             </links>
         </item>
